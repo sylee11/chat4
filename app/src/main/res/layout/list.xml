@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_tren"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Messenger"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/find"
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon" />
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/xam"
+        android:layout_below="@+id/rl_tren"
+        android:layout_above="@+id/rl_duoi"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demen1">
+
+            <Button
+                android:background="@drawable/gai2"
+                android:layout_width="@dimen/demen1"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/mau_chu"
+
+                    android:fontFamily="serif"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:text="Nguyễn Thị Nam"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+                <TextView
+                    android:paddingRight="15dp"
+                    android:gravity="right|center"
+                    android:textColor="@color/mau_chu"
+                    android:layout_alignParentBottom="true"
+                    android:text="Hello!!"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demenspace_name" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demen1">
+            <Button
+                android:background="@drawable/gai2"
+                android:layout_width="@dimen/demen1"
+                android:layout_height="@dimen/demen1" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/mau_chu"
+
+                    android:fontFamily="serif"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:text="Nguyễn Thị Bê"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+                <TextView
+                    android:paddingRight="15dp"
+                    android:gravity="right|center"
+                    android:textColor="@color/mau_chu"
+                    android:layout_alignParentBottom="true"
+                    android:text="Hello!!"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demenspace_name" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demen1">
+            <Button
+                android:background="@drawable/gai2"
+                android:layout_width="@dimen/demen1"
+                android:layout_height="@dimen/demen1" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/mau_chu"
+                    android:fontFamily="serif"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:text="Nguyễn Thị An"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+                <TextView
+                    android:textColor="@color/mau_chu"
+                    android:paddingRight="15dp"
+                    android:gravity="right|center"
+                    android:layout_alignParentBottom="true"
+                    android:text="Hello!!"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demenspace_name" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/demen1">
+            <Button
+                android:background="@drawable/gai2"
+                android:layout_width="@dimen/demen1"
+                android:layout_height="@dimen/demen1" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/mau_chu"
+                    android:fontFamily="serif"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:text="Nguyễn Thị Song Tuyển"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+                <TextView
+                    android:textColor="@color/mau_chu"
+                    android:paddingRight="15dp"
+                    android:gravity="right|center"
+                    android:layout_alignParentBottom="true"
+                    android:text="Hello!!"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_duoi"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green">
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/love" />
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_centerInParent="true"
+            android:background="@drawable/add" />
+
+        <Button
+            android:layout_width="@dimen/demenicon"
+            android:layout_height="@dimen/demenicon"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/setting" />
+    </RelativeLayout>
+
+</RelativeLayout>

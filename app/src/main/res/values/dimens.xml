@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="demen1">90dp</dimen>
+    <dimen name="demenicon">35dp</dimen>
+    <dimen name="demenspace_name">40dp</dimen>
+    <dimen name="demen_caochat">60dp</dimen>
+    <dimen name="demen_daichat">250dp</dimen>
+</resources>
