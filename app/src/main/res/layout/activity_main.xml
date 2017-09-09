@@ -177,8 +177,8 @@
             <Button
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/aae"
-                android:layout_width="@dimen/demenicon"
-                android:layout_height="@dimen/demenicon" />
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
             <Button
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/camera_sam"
@@ -187,46 +187,48 @@
             <Button
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/youtube"
-                android:layout_width="@dimen/demenicon"
-                android:layout_height="@dimen/demenicon" />
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
             <Button
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="35dp"
                 android:background="@drawable/mat_cuoi"
-                android:layout_width="@dimen/demenicon"
-                android:layout_height="@dimen/demenicon" />
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
             <Button
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="35dp"
                 android:background="@drawable/image"
                 android:layout_width="@dimen/demenicon"
                 android:layout_height="@dimen/demenicon" />
             <Button
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="35dp"
                 android:background="@drawable/sao__"
                 android:layout_width="@dimen/demenicon"
                 android:layout_height="@dimen/demenicon" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
             <EditText
+                android:paddingLeft="10dp"
+                android:background="@color/white"
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/black"
                 android:hint="Nhập tin nhắn . . ."
                 android:layout_centerInParent="true"
                 android:layout_width="270dp"
-                android:layout_height="60dp" />
+                android:layout_height="match_parent" />
             <Button
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/send_sam"
-                android:layout_width="@dimen/demenicon"
-                android:layout_height="@dimen/demenicon" />
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
             <Button
                 android:layout_gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="30dp"
                 android:background="@drawable/like"
-                android:layout_width="@dimen/demenicon"
-                android:layout_height="@dimen/demenicon" />
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
         </LinearLayout>
     </LinearLayout>
 
